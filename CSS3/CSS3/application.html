@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Style Tests</title>
+<link href="css/core.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="centerPosition"> 
+ <!-- HEADER -->
+ <div id="topBar">
+  <div id="badgeLeft"></div>
+  <div id="badgeRight"></div>
+  <div id="plane"></div>
+  <div id="logo"></div>
+  <div id="imgLeft"></div>
+ </div>
+ 
+ <!-- NAVIGATION -->
+ <ul id="menu">
+  <li><a href="index.html">Home</a></li>
+  <li> <a href="#">Intelligence</a>
+   <ul>
+    <li><a href="teamspeak.html">TeamSpeak</a></li>
+    <li><a href="headtracking.html">Head Tracking</a></li>
+    <li><a href="#">The GIAP</a>
+     <ul>
+      <li><a href="#">GvYAP</a></li>
+      <li><a href="#">GvShaP</a></li>
+      <li><a href="#">GvBaP</a></li>
+     </ul>
+    </li>
+    <li><a href="#">Battle Of Stalingrad</a>
+     <ul>
+      <li><a href="squadSkins.html">Squad Skins</a></li>
+      <li><a href="skinsMgmnt.html">Skins Mgmnt</a></li>
+      <li><a href="bombsightTable.php">Bombsight Tool</a></li>
+     </ul>
+   </ul>
+  </li>
+  <li><a href="#">Base Tour</a>
+   <ul>
+    <li><a href="#">Roster</a></li>
+    <li><a href="rules.html">Squad Rules</a></li>
+    <li><a href="tales.html">Giap Tales</a></li>
+    <li><a href="pravda.html">Pravda</a></li>
+    <li><a href="#">Top Dog Ladder</a></li>
+    <li><a href="#">Our Badges</a></li>
+   </ul>
+  </li>
+  <li><a href="application.html">Recruiting</a></li>
+  <li><a href="#">Forums</a></li>
+ </ul>
+ 
+ <!-- CONTENT -->
+ <div id="mainContent">
+  <h1>Application Form</h1>
+  <img src="img/main/grafic_h1Line.png"></img>
+  <form class="contact_form" action="sendIt.php" method="post" name="contact_form">
+   <ul>
+    <h2>Contact Information</h2>
+    <li> <span class="required_notification">* Denotes Required Field</span></li>
+    <li>
+     <label for="firstName">First Name:</label>
+     <input type="text" name="firstName" placeholder="John" required />
+    </li>
+    <li>
+     <label for="surName">Sure Name:</label>
+     <input type="text" name="surName" placeholder="Doe" required />
+    </li>
+    <li>
+     <label for="email">Email:</label>
+     <input type="email" name="email" placeholder="name@something.com" required />
+     <span class="form_hint">Proper format name@something.com</span> </li>
+    <li>
+     <label for="age">Age:</label>
+     <input type="number" name="age" required />
+    </li>
+    <li>
+     <label for="timzone">Timezone:</label>
+     <input type="text" name="timezone" />
+     <span class="form_hint">e.g. GMT+2</span> </li>
+    <li>
+     <label for="city">City:</label>
+     <input type="text" name="city" />
+    </li>
+    <li>
+     <label for="country">Country:</label>
+     <input type="text" name="country" />
+    </li>
+    <h3>Question from =69.GIAP=</h3>
+    <li>
+     <label for="callsign">Preferred Callsign:</label>
+     <input type="text" name="callsign" required />
+     <span class="form_hint">e.g. =69.GIAP=SMIRNOFF</span> </li>
+    <h3>Apply for joining:</h3>
+    <div class="radio">
+     <input id="unknown" type="radio" name="section" value="unknown" checked>
+     <label class="radio" for="unknown">dont know</label>
+     <input id="yap" type="radio" name="section" value="YAP">
+     <label class="radio" for="yap">YAP</label>
+     <input id="shap" type="radio" name="section" value="SHAP">
+     <label class="radio" for="shap">SHAP</label>
+     <input id="bap" type="radio" name="section" value="BAP">
+     <label class="radio" for="bap">BAP</label>
+    </div>
+    <label for="message">About Me:</label>
+    <textarea name="message" cols="40" rows="6" required></textarea>
+    <button class="submit" type="submit">Send</button>
+    </li>
+   </ul>
+  </form>
+ </div>
+ <!-- FOOTER --> 
+ <img src="img/main/grafic_disclaimerLine.png"></img>
+ <p id="disclaimer">This site and its extensive use of Soviet era graphics is a tribute to the Soviet people. A people who fought and shed blood under extreme conditions to repel a vile aggressor. It is in no way an endorsement or reverement of the brutal Communist regime, which under Stalin was responsible for perhaps even more soviet deaths than the war itself.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+#topBar {					/* background linear gradient CSS3 styles */
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	height: 62px;
+	background-color: #333;	
+	background: url(../img/main/mainBar.png);
+	background-repeat: repeat-x;
+	z-index: 2;
+}
+
+#topBar div#badgeLeft {
+	position: relative;
+	top: -2px;
+	left: -55px;
+	width: 93px;
+	height: 116px;
+	background: url(../img/main/grafic_badge.png);
+	background-repeat: no-repeat;
+	z-index: 3;	
+}
+
+#topBar div#badgeRight {
+	position: relative;
+	top: -118px;
+	left: 655px;
+	width: 93px;
+	height: 116px;	
+	background: url(../img/main/grafic_badge.png);
+	background-repeat: no-repeat;
+	z-index: 3;	
+}
+
+#topBar div#plane {
+	position: relative;
+	top: -255px;
+	left: 625px;
+	width: 350px;
+	height: 123px;	
+	background: url(../img/main/plane.png);
+	background-repeat: no-repeat;
+	z-index: 4;
+}
+
+#topBar div#logo {
+	position: relative;
+	top: -338px;
+	left: 35px;
+	width: 168px;
+	height: 24px;
+	background: url(../img/main/mainLogo.png);
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+	z-index: 3;	
+}

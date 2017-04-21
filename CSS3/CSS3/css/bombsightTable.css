@@ -1,0 +1,234 @@
+
+/* Main CSS*/
+
+table#bombRadius caption {
+	padding: 0;
+	margin: 0 0 10px 0;
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;	
+}
+	
+p.remark {
+	margin: 5px 10px;
+	line-height: 1.2em;
+	font-size: 10px;
+	text-align: right;
+	color: #666;
+}
+p.remarkCenter {
+	margin: 5px 10px;
+	line-height: 1.2em;
+	font-size: 10px;
+	text-align: center;
+	color: #666;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+form fieldset p {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+.formContainer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	width: 380px;
+}
+
+.formContainer input {
+	width: 100%;
+	clear: both;
+}
+
+.tableContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 380px;
+}
+
+label.mandatory:after {
+	display: inline-block;
+   color: #a21f1f;
+   content: '\a0*';
+}
+
+/******* HYPERLINKS *******/
+a:link    {color:#666; background-color:transparent; text-decoration:underline}
+a:visited {color:#666; background-color:transparent; text-decoration:underline}
+a:hover   {color:#666; background-color:transparent; text-decoration:underline}
+a:active  {color:#666; background-color:transparent; text-decoration:underline}
+
+/******* FORMS *******/
+#bombsightTableForm {
+	height: 260px;
+	width: 350px;    
+	padding: 0 30px 30px 30px;	  
+	box-shadow: 0 0 5px #333;
+}
+
+/********FIELDSETS **********/
+#action {
+	margin: 2px 0 25px 0;
+}
+
+
+/********INPUT FORM FIELDS **********/
+#inputs input.form {
+	background: #f1f1f1;
+	padding: 2px;
+	margin: 4px 30px 4px 2px;
+	height: 20px;
+	width: 341px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	
+	-moz-box-shadow: 0 0 1px #ccc inset, 0 0 0 #fff;
+	-webkit-box-shadow: 0 0 1px #ccc inset, 0 0 0 #fff;
+	box-shadow: 0 0 1px #ccc inset, 0 0 0 #fff;
+}
+
+#inputs input.formAcHeading {
+	background: #a21f1f;
+	padding: 2px;
+	margin: 4px 30px 4px 2px;
+	height: 20px;
+	width: 341px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	-moz-box-shadow: 0 0 1px #ccc inset, 0 0 0 #fff;
+	-webkit-box-shadow: 0 0 1px #ccc inset, 0 0 0 #fff;
+	box-shadow: 0 0 1px #ccc inset, 0 0 0 #fff;
+	color: #E6E6E6;	 
+}
+
+/******** BUTTONS *********/
+#doIt {
+	background: none;	
+	background-color: #a21f1f;
+	border-radius: 0px;	
+	/*text-shadow: 0 1px 0 rgba(0,0,0,0.4);*/
+	font: 23px Candara, sans-serif;
+	color: #E6E6E6;
+	cursor: pointer;
+	width: 350px;
+	height: 40px;
+	padding: 0;		
+}
+
+#results input:disabled {
+	background-color: #a21f1f;
+	padding: 2px 20px;
+	margin: 4px 0px 4px 2px;
+	height: 20px;
+	width: 50px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	-moz-box-shadow: 0 0 1px #ccc inset, 0 0 0 #fff;
+	-webkit-box-shadow: 0 0 1px #ccc inset, 0 0 0 #fff;
+	box-shadow: 0 0 1px #ccc inset, 0 0 0 #fff;
+	
+	display: block;
+	float: none;
+	font-size: 17px;
+	color: #E6E6E6;
+}
+
+#doIt:hover, #doIt:focus {		
+	border-radius: 0px;
+	background-color: #293442;
+	height: 40px;	
+}
+
+#doIt:active {
+	border-radius: 0px;	
+	background-color: #293442;	
+	height: 40px;		
+	outline: none;
+}
+
+#doIt::-moz-focus-inner {
+	border: none;
+}
+
+
+#inputs label {  
+	display: inline-block;  
+	position: relative;  
+	padding-left: 0px;  
+	margin-right: 15px;  
+	font-size: 13px;  
+}
+
+
+/******** TABLE *********/
+table#bombsight,
+table#bombRadius {
+	padding: 10px;
+	margin: 10px 0 0 0;
+	border-collapse: collapse;
+	box-shadow: 0 0 5px #333;	
+}
+
+table#bombsight {
+	width: 409px;	
+}
+
+table#bombRadius {
+	width: 409px;	
+}
+table#bombsight table,
+table#bombRadius table,
+td {
+	border: 1px solid #999;	
+	text-align: center;
+	padding: 2px;
+}
+
+table#bombsight td,
+table#bombRadius td,
+th {
+	height: 20px;
+	font-weight: bold;
+}
+
+table#bombsight th,
+table#bombRadius th  {
+	font-weight: bold;
+	padding: 4px;
+	text-align: center;	
+}
+
+td.original {
+	background-color: #a21f1f;
+	color: #E6E6E6;	
+}
+td.left {
+	background-color: #090;	
+	color: #E6E6E6;	
+}
+td.right {
+	background-color: #069;
+	color: #E6E6E6;	
+}
+td.first {
+	background-color: #CCC;
+	color: #333;	
+	text-align: right;
+}
+
+

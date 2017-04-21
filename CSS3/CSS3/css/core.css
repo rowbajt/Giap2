@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "reset.css";
+@import "topbar.css";
+@import "navigation.css";
+@import "content.css";
+@import "bombsightTable.css";
+@import "form.css";
+
+body {
+	background-color: #e6e6e6;
+	font-family: Candara, sans-serif;
+	font-size: 62.5%;/* 1em entspricht 10px */
+	font-weight: normal;
+	color: #C30;
+/* Center Body */
+	margin: 5px 0 0 0;	/*box ends on window border - scrollbar appears when content div lower end dissappears */
+	text-align: center; /* IE5 fix */
+}
+
+#centerPosition {					/* Centered page content container */
+	width: 700px;
+	margin: 0 auto;
+	text-align: left;
+	background-origin: border-box;
+	box-shadow: 0 0 15px #333;
+	z-index: -1;
+	background: url(../img/main/grafic_ManWithFlag.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;  
+}
+
+h1 {
+	font-size: 2.5em;/*24px;*/
+	font-weight: bold;
+}
+
+h2 {
+	padding: 0;
+	font-size: 2em;/*14px;*/
+	font-weight: bold;
+	margin: 5px 0 5px 90px;
+}
+
+h3 {
+	font-size: 1em;/*12px;*/
+	font-weight: bold;
+	margin: 5px 0 5px 90px;
+}
+
+p {
+	padding: 5px 0;
+	font-style: normal;
+	margin-left: 100px;
+	margin-right: 0;
+	font-size: 1.4em;
+}
+
+ul {
+	padding: 5px 15px;
+	font-style: normal;
+	margin-left: 100px;
+	margin-right: 20px;
+	font-size: 1.4em;	
+}
