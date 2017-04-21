@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mainContent {
+	margin: 10px 5px 0 35px;
+	color: #C30;	
+	min-height: 350px;
+}
+
+#imgLeft {
+	position: relative;
+	top: -150px;
+	left: -80px;
+	width: 200px;
+	height: 132px;
+	background: url(../img/main/leftImage.png);
+	background-repeat: no-repeat;
+}
+
+#disclaimer {
+	font-size: 1.1em;
+	font-style: italic;
+	margin: 0 20px;
+	text-align: center;
+	border-bottom: #999;
+}
+.center {
+	margin: 0 auto;
+}
+.note {
+	font-size: 1em;
+	font-style: italic:
+}
+.note:before {
+	content: "Note: ";
+	font-weight: bold;
+}
+div.img {
+	margin: auto;
+	padding: 0;
+	display: block;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+div.img img {
+	display: inline;
+	margin: 10px;
+	box-shadow: 0 0 15px #333;
+}
+div.desc {
+	margin: auto;
+	display: block;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-align: center;
+	margin: -10px 0 0 0;
+	padding: 0 4px;
+}
+
+div.imgFloatLeft,
+div.imgFloatLeftPortrait {
+	position: relative;
+	top: 1em;
+	left: -130px;
+	float: left;
+	width: 260px;
+	padding: 0;
+	margin: 0 -130px 1em 0;
+	text-align: center;
+}
+div.imgFloatLeftPortrait {
+	left: -82px;
+	float: left;
+	width: 165px;
+	margin: 0 -820px 0 0;
+}
+.imgFloatRight {
+	position: relative;
+	right: -80px;
+	float: right;
+	padding: 0;
+	margin: 0 0 0 -80px;
+}
+.imgFloatRightGvBap {
+	position: relative;
+	right: -110px;
+	float: right;
+	padding: 0;
+	margin: 0 0 0 -110px;
+}
